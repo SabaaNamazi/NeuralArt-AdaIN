@@ -17,7 +17,7 @@ The project uses a pretrained VGG encoder and a trained decoder to generate styl
 ##  Style Transfer Example
 
 <p align="center">
-  <img width="100%" alt="NeuralArt Style Transfer Example" src="https://github.com/user-attachments/assets/bdc921aa-74c1-4521-8d68-fdefa851c594" />
+ <img width="1353" height="618" alt="image" src="https://github.com/user-attachments/assets/c1cb0067-d295-42e5-8510-6797e70502d5" />
 </p>
 
 ##  Features
