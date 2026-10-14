@@ -14,9 +14,7 @@ Transform ordinary photographs into artistic images using deep learning and **Ad
 
 The project uses a pretrained VGG encoder and a trained decoder to generate stylized images while preserving the content of the original photograph.
 
-##  Example
-
-The application allows users to provide a content image and a style reference image to create an artistic transformation.
+##  Style Transfer Example
 
 <p align="center">
   <img width="100%" alt="NeuralArt Style Transfer Example" src="https://github.com/user-attachments/assets/bdc921aa-74c1-4521-8d68-fdefa851c594" />
@@ -24,30 +22,32 @@ The application allows users to provide a content image and a style reference im
 
 ##  Features
 
-- 🎨 **Artistic Style Transfer** — Transform photographs using different artistic styles.
-- 🖼️ **Image Upload** — Upload a content image and a style reference image.
-- 🧠 **Deep Learning Model** — Generate stylized images using the AdaIN architecture and trained decoder.
-- ⚙️ **Adjustable Style Strength** — Control the influence of the selected artistic style, as supported by the interface.
-- 🌐 **Web Interface** — Interact with the application through a Flask-based interface.
+-  **Artistic Style Transfer** — Transform photographs using artistic styles.
+-  **Image Upload** — Upload a content image and a style reference image.
+-  **Deep Learning Model** — Generate stylized images using AdaIN and the trained decoder.
+-  **Style Strength Control** — Adjust the influence of the selected artistic style.
+-  **Web Interface** — Use the application through a Flask-based interface.
 
 ##  Tech Stack
 
-- **Language:** Python
-- **Deep Learning:** PyTorch
-- **Model:** Adaptive Instance Normalization (AdaIN), VGG encoder, trained decoder
+- **Programming Language:** Python
+- **Deep Learning Framework:** PyTorch
+- **Style Transfer Method:** Adaptive Instance Normalization (AdaIN)
+- **Encoder:** Pretrained VGG encoder
+- **Decoder:** Trained decoder
 - **Backend:** Flask
-- **Frontend:** HTML, CSS
+- **Frontend:** HTML and CSS
 
-##  Model Training
+##  Model Architecture & Training
 
-Style Transfer Method: Adaptive Instance Normalization (AdaIN)
+NeuralArt uses **Adaptive Instance Normalization (AdaIN)** to combine the content features of an image with the style features of a reference image.
 
-Encoder: Pretrained VGG encoder
+- **Encoder:** Pretrained VGG encoder for extracting image features.
+- **Decoder:** Trained to reconstruct stylized images from AdaIN-transformed features.
+- **Content Dataset:** COCO2017.
+- **Style Dataset:** Painter by Numbers.
+- **Training Duration:** 260 epochs across two training stages.
 
-Decoder: Custom decoder trained from scratch for this project
+The VGG encoder uses pretrained weights, while the decoder was trained for this project.
 
-Content Dataset: COCO2017
-
-Style Dataset: Painter by Numbers
-
-Training: 260 epochs across two training stages
+**Trained decoder weights:** `experiment/final_exp/decoder_final.pth`
