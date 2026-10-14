@@ -3,7 +3,7 @@
 Transform ordinary photographs into artistic images using deep learning and **Adaptive Instance Normalization (AdaIN)**.
 
 <p align="center">
-  <img width="100%" alt="NeuralArt Application Interface" src="https://github.com/user-attachments/assets/66c8d3a0-0770-42cc-8089-bf4bdc5d3e50" />
+  <img width="1353" height="620" alt="image" src="https://github.com/user-attachments/assets/3e972cd3-2e1b-4ab5-a22f-b825a11f2fd7" />
 </p>
 
 ---
