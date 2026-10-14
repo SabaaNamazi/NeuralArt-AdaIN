@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+
+# Generated uploads
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Training datasets (not needed for deployment)
+content_data/
+style_data/
+
+# Generated training samples (keep trained model)
+experiment/final_exp/sample_iter_*.png
+
+# OS files
+.DS_Store
+Thumbs.db
