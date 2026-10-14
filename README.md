@@ -1,6 +1,8 @@
 🎨 NeuralArt — AI Neural Style Transfer
 Transform ordinary photographs into artistic images using deep learning and AdaIN.
-<img width="1346" height="623" alt="image" src="https://github.com/user-attachments/assets/99124a14-a682-4a58-b3ff-8edaa48ea1db" />
+<br>
+<img width="1356" height="617" alt="image" src="https://github.com/user-attachments/assets/66c8d3a0-0770-42cc-8089-bf4bdc5d3e50" />
+
 
 
 
