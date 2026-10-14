@@ -40,6 +40,14 @@ The application allows users to provide a content image and a style reference im
 
 ##  Model Training
 
-The decoder was trained using **COCO2017** as the content-image dataset and **Painter by Numbers** as the style-image dataset.
+Style Transfer Method: Adaptive Instance Normalization (AdaIN)
 
-The training was completed in two stages, with a total of **260 epochs** across both stages.
+Encoder: Pretrained VGG encoder
+
+Decoder: Custom decoder trained from scratch for this project
+
+Content Dataset: COCO2017
+
+Style Dataset: Painter by Numbers
+
+Training: 260 epochs across two training stages
